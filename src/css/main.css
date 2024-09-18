@@ -12,3 +12,103 @@ img,
 video {
   display: block;
 }
+body {
+  font-family: Roboto;
+  margin-top: 50px;
+}
+.country {
+  text-align: right;
+  font-size: 16px;
+  padding-right: 17px;
+}
+.statistics {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  align-self: stretch;
+  justify-content: flex-end;
+  width: 422px;
+}
+
+.mobile {
+  background: #ffcc2f;
+  display: flex;
+  width: 123px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.desktop {
+  display: flex;
+  width: 177px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.mobile,
+.desktop {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.first-statistic {
+  width: 195px;
+}
+.second-statistic {
+  width: 105px;
+}
+.third-statistic {
+  width: 153px;
+}
+
+.fourth-statistic {
+  width: 147px;
+}
+
+.fifth-statistic {
+  width: 123px;
+}
+.sixth-statistic {
+  width: 177px;
+}
+
+.yellow-square {
+  width: 16px;
+  height: 16px;
+  background-color: #ffcc2f;
+}
+
+.blue-square {
+  width: 16px;
+  height: 16px;
+  background-color: #37d3d2;
+}
+.text-legend {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legend-placement {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
