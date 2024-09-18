@@ -20,6 +20,7 @@ body {
   text-align: right;
   font-size: 16px;
   padding-right: 17px;
+  font-weight: 400;
 }
 .statistics {
   display: flex;
